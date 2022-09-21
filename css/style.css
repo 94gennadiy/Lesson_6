@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 815px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin: 0px 0px 92px 0px;
+}
+
+.picture img {
+    margin: 0px 0px 60px 0px;
+    max-width: 100%;
+}
+
+.text-one p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.text-two {
+    color: #424551;
+    margin-bottom: 48px;
+}
+
+.text-two .para-one {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0px 0px 25px 0px;
+}
+
+.text-two .para-two {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.text-three {
+    color: #1E212C;
+    margin-bottom: 48px;
+    padding-left: 58px;
+}
+
+.text-three p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.text-four {
+    margin-bottom: 24px;
+}
+
+.text-four p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.list ul {
+    margin-bottom: 24px;
+}
+
+.list li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-left: 32px;
+}
+
+.text-five {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.test-one {
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    max-height: 50px;
+    max-width: 500px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.test-two {
+    padding: 5px;
+    margin: 10px 10px 10px 400px;
+    background-color: black;
+    color: white;
+    max-height: 50px;
+    max-width: 500px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.test-three {
+    background-color: blue;
+    color: white;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 10px;
+}
+
+.test-three p {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.test-three span {
+    display: block;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+.test-four {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: black;
+    border: 5px dashed red;
+    display: inline-block;
+    margin: 50px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.test-five {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: black;
+    border: 5px double red;
+    display: inline-block;
+    margin: 50px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.test-six {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: black;
+    border: 5px dotted red;
+    display: inline-block;
+    margin: 50px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.test-seven {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(37, 211, 22);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    outline: 4px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 60px 40px red;
+    opacity: 0.5;
+}
+
+.test-seven p {
+    width: 250px;
+    height: 250px;
+    background-color: wheat;
+    margin: 50px;
+    padding: 85px;
+    display: inline-block;
+    text-align: center;
+    border-left: 4px solid blue;
+    border-top: 4px dashed red;
+    border-bottom: 6px dotted black;
+    border-right: 6px double white;
+}
+
+.test-eight {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.test-nine {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.test-ten {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 34% 66% 0% 100% / 0% 97% 3% 100%;
+}
+
+.test-eleven {
+    border: 2px solid red;
+}
+
+.test-eleven-one {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    box-shadow: inset 5px 5px 5px 2px black;
+}
+
+.test-eleven-two {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    display: inline-block;
+}
+
+.test-eleven-three {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.white-one {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin: 62px;
+    outline: 2px solid black;
+}
+
+.white-two {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin: 62px;
+}
+
+.test-twelve {
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    margin: 50px;
+    visibility: hidden;
+}
